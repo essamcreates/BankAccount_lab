@@ -14,8 +14,8 @@ public class BankAccountTest {
         bankAccount.setFirstName("Mohamed");
         bankAccount.setLastName("Hussain");
         bankAccount.setDateOfBirth("10/02/95");
-        bankAccount.setAccountNumber(12345);
-        bankAccount.setBalance(1987);
+        bankAccount.setAccountNumber (12345);
+        bankAccount.setBalance(2000);
     }
 
     @Test
@@ -59,10 +59,9 @@ public class BankAccountTest {
         //    when
         int actual = bankAccount.getBalance();
 //    then
-        int expect = 1987;
+        int expect = 2000;
         assertThat(actual).isEqualTo(expect);
     }
-
 
 
 

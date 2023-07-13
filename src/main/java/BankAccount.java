@@ -7,6 +7,7 @@ public class BankAccount {
     private int accountNumber;
     private int balance;
 
+
     public BankAccount(){
         this.firstName = "";
         this.lastName = "";
@@ -55,4 +56,13 @@ public class BankAccount {
     public void setBalance(int balance){
         this.balance = balance;
     }
+
+
+//    Method to deposit an amount
+
+
+//    Method to withdraw an amount
+
+
+
 }
